@@ -6,7 +6,12 @@
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
-    "elysia": "latest"
+    "@elysiajs/cookie": "^0.8.0",
+    "@elysiajs/jwt": "^1.1.1",
+    "@elysiajs/swagger": "^1.1.1",
+    "elysia": "latest",
+    "mongoose": "^8.6.3",
+    "picocolors": "^1.1.0"
   },
   "devDependencies": {
     "bun-types": "latest"
